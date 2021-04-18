@@ -1,0 +1,29 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body > *{
+    width:100%;
+
+}
+
+/* Header Styling set */
+header{
+    height: 10vw;
+    position: fixed;
+}
+
+header h1{
+    color:aliceblue;
+    position:absolute;
+    left: 10px;
+    min-width: 4in;
+}
+
+/* Journal Entry Styling set */
+
+
+/* Form Styling set */
+
+
+/* Footer Styling set */
