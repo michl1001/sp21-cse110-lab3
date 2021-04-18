@@ -7,6 +7,13 @@ body > *{
 
 }
 
+a:hover {
+    background-color: rgb(20, 151, 202);
+  }
+  a:active {
+    background-color: #800080;
+  }
+
 /* Header Styling set */
 header{
     height: 10vw;
@@ -18,11 +25,18 @@ header h1{
     position:absolute;
     left: 10px;
     min-width: 4in;
+    text-align: left;
+    text-decoration: underline;
 }
 
 /* Journal Entry Styling set */
+main {
 
+}
 
+.entry {
+
+}
 /* Form Styling set */
 
 
