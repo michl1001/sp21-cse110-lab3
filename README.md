@@ -1,1 +1,1 @@
-https://michl1001.github.io/Lab2/
+https://michl1001.github.io/sp21-cse110-lab3/
