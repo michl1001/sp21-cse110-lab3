@@ -106,3 +106,22 @@ span + audio{
 
 
 /* Footer Styling set */
+#githubMain{
+    font-weight: bold;
+}
+
+footer{
+    background-color: grey;
+    margin-top: .3cm;
+    padding-top: .1cm;
+
+    width:100%;
+}
+
+footer > nav {
+    background-color: darkgrey;  
+    display:flexbox;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+}
