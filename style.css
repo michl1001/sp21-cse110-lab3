@@ -2,11 +2,6 @@
     font-family: 'PT Sans', sans-serif;
 }
 
-body > *{
-    width:100%;
-
-}
-
 a{
     color:blue;
 }
@@ -16,6 +11,11 @@ a:hover {
   }
 a:active {
     color: #800080;
+}
+
+.media > b, body > * {
+    width:100%;
+
 }
 
 @media print {
@@ -40,6 +40,7 @@ header h1{
     min-width: 4in;
     text-align: left;
     text-decoration: underline;
+    margin:auto;
 }
 
 /* Journal Entry Styling set */
@@ -89,10 +90,6 @@ div.media {
     margin: 4% .2cm 4% .2cm;
 }
 
-.media > b{
-    width:100%;
-}
-
 img{
     width:90%;
     height:auto;
@@ -103,7 +100,10 @@ span + audio{
 }
 
 /* Form Styling set */
-
+[for="comp"]{
+    color:green;
+    font-weight: bold;
+}
 
 /* Footer Styling set */
 #githubMain{
